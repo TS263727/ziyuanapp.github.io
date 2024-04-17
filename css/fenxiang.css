@@ -1,0 +1,71 @@
+.dialog-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+}
+
+.dialog-box-border {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    background: #FFF;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    padding: 50px 40px
+}
+
+.dialog-box-text1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 38px;
+    margin-top: -40px;
+}
+
+.dialog-box-text2 {
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 30px;
+    color: #999;
+}
+
+.dialog-box-text2-1 {
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 30px;
+    color: red;
+}
+
+
+.btn {
+    width: 80%;
+    height: 60px;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    line-height: 60px;
+    border-radius: 100px;
+    background: #1E90FF;
+    /*按钮背景*/
+    outline: none;
+    /*点击后没边框*/
+}
+
+
+/* 触停效果 */
+/*.btn1:hover {*/
+/*    background: green;*/
+/*}*/
+
+
+/* 点击效果 */
+.btn:active {
+    background: #ff1cae;
+    font-size: 40px;
+}
