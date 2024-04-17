@@ -86,4 +86,9 @@ $('.leftmuen>li').click(function () {
     // $('.nrbottom>iframe').attr('src', 'apk/橘子美化.apk')
     window.location.href = 'apk/橘子美化2.1（点我下载）.apk';
   }
+  else if (index == 5) {
+    // $('.nrbottom>iframe').css('display', 'block')
+    // $('.nrbottom>iframe').attr('src', 'apk/橘子美化.apk')
+    window.location.href = 'yinyuehe/index.html';
+  }
 })
